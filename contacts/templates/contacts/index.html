@@ -1,0 +1,15 @@
+{% extends "contacts/base.html" %}
+
+{% block content %}
+<h1>Local Contacts Home</h1>
+
+ <p>Welcome to <em>LocalContacts</em>, a very basic Django website </p>
+
+<h2>Dynamic content</h2>
+
+ <p>The contact has the following record counts:</p>
+ <ul>
+   <li><strong>Contacts:</strong> {{ num_contacts }}</li>
+ </ul>
+
+{% endblock %}
